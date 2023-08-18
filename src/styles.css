@@ -1,0 +1,151 @@
+.callList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+}
+
+.callListHeader{
+    display: flex;flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+.input{
+    padding: 10px ;
+    margin: 10px 0;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.callButton{
+    width: 100px;
+    background-color: rgb(0, 156, 0)!important;
+    color: white;
+    border: none;
+    font-size: 25px;
+}
+
+.heading2{
+    margin-top: 40px;
+}
+
+.callCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    box-shadow: 0px 0px 4px 0px grey;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+.callCard h1 {
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+}
+
+.icon {
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+}
+
+
+.callDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.message {
+    display: flex;
+    box-shadow: 0px 0px 4px 0px grey;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.role{
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 0%;
+    transform: translateY(-100%);
+    left: 0;
+    padding: 1px 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+.content{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.assistant{
+    background-color: rgb(180, 180, 254);
+}
+
+.user{
+    background-color: rgb(217, 254, 180);
+}
+
+
+
+.inputContainer{
+    position: fixed;
+    width: 90%;
+    bottom: 40px;
+    background-color: rgb(255, 206, 206);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.textarea{
+    width: 70%;
+    min-height: 100px;
+    resize: none;
+    margin: 10px ;
+    padding: 5px;
+}
+
+.buttonContainer{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.button{
+    background-color: white;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:nth-child(2){
+    width: auto;
+    border-radius: 5px;
+color: white;
+}
+
+.buttonDiff{
+    width: auto;
+    border-radius: 5px;
+    background-color: rgb(255, 43, 43);
+    color: white;
+}
